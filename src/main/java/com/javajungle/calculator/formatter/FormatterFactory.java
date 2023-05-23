@@ -27,8 +27,8 @@ public enum FormatterFactory {
 
     }
 
-    public Formatter get(String name){
-        if(suppliers.containsKey(name)){
+    public Formatter get(String name) {
+        if (suppliers.containsKey(name)) {
             return suppliers.get(name).get();
         }
         throw new IllegalArgumentException("FormatterFactory with name '" + name + "' is not registered!");
