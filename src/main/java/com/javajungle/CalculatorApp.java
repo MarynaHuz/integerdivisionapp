@@ -9,11 +9,10 @@ public class CalculatorApp {
 
     public static void main(String[] args) {
 
-        Calculator calculator = new Calculator();  // main computing class
-        Result result = calculator.divide(7894050, 4);
-        Formatter formatter = FormatterFactory.getInstance().get("UA"); // Formatter is an interface
-        String output = formatter.format(result); // formatted result
+        Calculator calculator = new Calculator();
+        Result result = calculator.divide(12543, -7);
+        Formatter formatter = FormatterFactory.getInstance().get("US");
+        String output = formatter.format(result);
         System.out.print(output);
-
     }
 }
