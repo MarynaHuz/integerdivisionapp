@@ -14,6 +14,6 @@ public record Result(int dividend, int divisor, int quotient, int reminder, List
 
     @Override
     public String toString() {
-        return String.format("%d,%d,%d,%d,%s", dividend, divisor, quotient, reminder, divisionSteps);
+        return String.format("%d / %d = %d + %d, steps = %s", dividend, divisor, quotient, reminder, divisionSteps);
     }
 }
