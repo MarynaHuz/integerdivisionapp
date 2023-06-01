@@ -1,4 +1,4 @@
-# IntegerDivisionApp
+# com.javajungle.CalculatorApp
 
 
 
